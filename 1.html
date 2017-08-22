@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="static/h-ui/css/H-ui.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+</head>
+<style>
+	/*table{
+		width: 300px;
+		height: 300px;
+		border: 1px solid red;
+	}*/
+	/*th,td{
+		border: 1px solid red;
+	}*/
+	table.dataTable thead .sorting_desc {
+    background-image: url(sort_desc.png);
+}
+table.dataTable thead .sorting_asc {
+    background-image: url(sort_asc.png);
+}
+</style>
+<body>
+	<table id="example" class="table table-border table-bordered table-bg table-hover table-sort">
+		<thead>
+			<tr>
+				<th>1</th>
+				<th>1</th>
+				<th>1</th>
+			</tr>
+		</thead>	
+			<tbody>
+				<tr>
+				<td>2</td>
+				<td>2</td>
+				<td>2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+				</tr>
+			</tbody>
+			
+		
+	</table>
+</body>
+<script>
+		$('#example').dataTable( {
+	  "searching" : false, //去掉搜索框方法一
+        "bFilter": false,   //去掉搜索框方法二
+        "bSort": true,  //禁止排序
+        "paging": false,   //禁止分页
+        "info": false   //去掉底部文字
+	
+	} );
+</script>
+</html>

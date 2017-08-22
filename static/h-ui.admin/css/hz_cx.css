@@ -1,0 +1,177 @@
+#left{
+	width: 25%;
+	height: 100%;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+	overflow: auto;
+	border-left:1px solid #ccc  ;
+}
+@media screen and (min-width:1400px ) {
+	#left{
+		width:291px ;
+	}
+}
+p{
+	border-bottom: 1px solid #000;
+	padding-bottom: 15px;
+	margin-top: 5px;
+}
+#left ul{
+	width: 280px;
+	height: 350px;	
+	position: relative;
+}
+#left ul li{
+	width: 100%;
+	height: 10%;
+}
+
+.checkbox{
+	width: 20px;
+	height: 20px;
+}
+.input{
+	position: absolute;
+	right: 0px;
+	width: 180px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+#left .lk{
+	width: 100%;
+	height: 80px;
+}
+#left .lk li{
+	width: 33.33%;
+	height: 80px;
+	float: left;
+	
+}
+.xinput{
+	width: 50px;
+	height: 25px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+.center{
+/*	text-align: center;*/
+	line-height: 80px;
+}
+.radi{
+	border-radius:5px ;
+}
+#left .k3{
+	width: 100%;
+	height: 30px;
+}
+#left .k3 li{
+	width: 33.33%;
+	height: 30px;
+	float: left;
+}
+
+#left .k2{
+	width: 100%;
+	height: 30px;
+}
+#left .k2 li{
+	width: 120px;
+	height: 30px;
+	float: left;
+}
+#left .k2 li:nth-child(2){
+	margin-left: 10px;
+}
+#left .k2 li input{
+	width: 100%;
+	height: 100%;
+	border-radius:5px ;
+	border: 1px solid #ccc;
+}
+#left .k2 li input:hover{
+	background: deepskyblue;
+	color: #fff;
+}
+.muhu{
+	padding-top: 10px;
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+}
+.muhu span{
+	color: #ccc;
+	
+}
+.gj:hover{
+	color: blueviolet;
+	cursor: help;
+}
+
+
+#right{
+	width: 75%;
+	height: 100%;
+	float: left;
+	/*overflow: auto;*/
+}
+@media screen and (min-width:1400px ) {
+	#right{
+		box-sizing: border-box;
+		padding-left: 10px;
+		width:83%;
+	}
+}
+.box{
+	width: 100%;
+	height: 90%;
+	overflow: auto;
+}
+table{
+	width: 1400px;
+	/*height: auto;*/
+}
+
+/*table tr{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+table tr:hover{
+	background: skyblue;
+}
+table tr th{
+	text-align: center;
+	border: 1px solid #ccc;
+}
+table tr td{
+	border: 1px solid #ccc;
+}*/
+
+.r_bottom{
+	width: 100%;
+	height: 10%;
+}
+.r_bottom li{
+	width: 100px;
+	height: 30px;
+	float: right;
+	padding: 5px;
+}
+.r_bottom li:nth-child(1){
+	float: left;
+}
+.r_bottom li a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-radius:8px ;
+	
+}
+.r_bottom li a:hover{
+	background-color: skyblue;
+}
